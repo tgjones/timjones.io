@@ -1,17 +1,15 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
-gem "jekyll", "3.4.3"
+gem "jekyll", "~> 4.3"
+gem "webrick", "~> 1.8"
+gem "observer"                # required by rmagick on Ruby 3.4+
 
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
-
-# If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem "jekyll-feed", "~> 0.6"
-   gem "jekyll-sitemap"
-   gem "jekyll-responsive-image"
-   gem "jekyll-archives"
-   gem "jemoji"
+  gem "jekyll-feed", "~> 0.17"
+  gem "jekyll-sitemap", "~> 1.4"
+  gem "jekyll-responsive-image", "~> 1.5"
+  gem "jekyll-archives", "~> 2.2"
+  gem "jemoji", "~> 0.13"
+  gem "kramdown-parser-gfm", "~> 1.1"
 end
