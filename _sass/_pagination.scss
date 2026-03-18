@@ -1,6 +1,8 @@
+@use 'variables' as *;
+
 .pagination {
   color: #ccc;
-  margin: 1.5rem -$container-side-padding;
+  margin: 1.5rem (-$container-side-padding);
   overflow: hidden; // clearfix
   text-align: center;
 }

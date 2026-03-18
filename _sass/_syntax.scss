@@ -1,3 +1,6 @@
+@use 'sass:color';
+@use 'variables' as *;
+
 /* ==========================================================================
    Syntax highlighting
    ========================================================================== */
@@ -67,7 +70,7 @@ figure.highlight {
     // line numbers
     &.gutter {
       padding-right: 1em;
-      color: mix(#fff, #7a8288, 50%);
+      color: color.mix(#fff, #7a8288, 50%);
     }
   }
 

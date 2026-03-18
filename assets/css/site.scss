@@ -1,20 +1,19 @@
 ---
 ---
 
-@import "_normalize";
+@use "normalize";
+@use "variables";
+@use "base";
 
-@import "_variables";
-@import "_base";
+@use "layout";
 
-@import "_layout";
+@use "header";
 
-@import "_header";
+@use "home";
+@use "post";
+@use "projects";
+@use "comments";
+@use "pagination";
+@use "syntax";
 
-@import "_home";
-@import "_post";
-@import "_projects";
-@import "_comments";
-@import "_pagination";
-@import "_syntax";
-
-@import "_footer";
+@use "footer";
