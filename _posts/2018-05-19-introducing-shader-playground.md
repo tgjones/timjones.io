@@ -2,7 +2,7 @@
 title:   "Introducing Shader Playground"
 date:    2018-05-19 05:00:00 UTC
 excerpt: "Introducing a new shader playground website, supporting compilation and transpilation of HLSL and GLSL"
-tags:    shaders HLSL GLSL SPIR-V
+tags:    shaders HLSL GLSL SPIR-V shader-playground
 ---
 
 **TL/DR: I've made a new website called [Shader Playground](http://shader-playground.timjones.io) that is sort of like [Compiler Explorer](https://godbolt.org/) but for shading languages. You can compile HLSL and GLSL using `fxc.exe`, `dxc.exe`, `glslangValidator.exe`, `spirv-cross.exe`, and `mali-sc.exe`. You can see the compiler output and disassembly. You can chain multiple shader compilers together to transpile one language to another. You can share permalinks to shaders.**
